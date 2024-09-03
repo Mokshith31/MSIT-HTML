@@ -9,3 +9,15 @@ header {
 h1 {
     color:#0040df
 }
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    
+}
