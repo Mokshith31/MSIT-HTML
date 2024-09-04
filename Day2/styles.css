@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color:#0040df
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+.ullist,.lilist {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 3px 20px;
+}
+
+.Email {
+    color: rgb(34, 34, 233);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+}
+.main{
+    background-color: gray;
+}
+.A {
+    background-color: white;
+}
+
+section{
+    background-color:white;
+    margin: 10px;
+    border-radius: 5px ;
+}
+.main{
+    background-color: gray;
+    padding: 4px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
