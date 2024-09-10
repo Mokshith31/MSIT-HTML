@@ -42,18 +42,31 @@ nav {
     padding: 10px 20px;
 }
 
-
 a {
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /*transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;*/
     padding: 10px 20px;
 }
 
 a:hover {
-    box-shadow: 10px 10px 10px rgba(26, 189, 218, 0.3);
+
+    /*box-shadow: 10px 10px 10px rgba(26, 189, 218, 0.3);*/
     border-radius: 20px;
     background-color: rgba(26, 189, 218, 0.1);
+}
+
+.trans {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+}
+
+.trans:hover {
+    color: black;
+    background-color: gray;
+    border-radius: 5px;
 }
 
 footer {
@@ -71,7 +84,7 @@ section {
     margin: 10px;
     border-radius: 5px;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 
 .main {
@@ -156,6 +169,7 @@ section {
     margin-bottom: 20px;
 }
 
+
 .cta-button {
     background-color: #0040df;
     color: white;
@@ -168,6 +182,9 @@ section {
 .cta-button:hover {
     background-color: #0262ff;
 }
+
+
+
 .honeycomb {
     display: flex;
     flex-wrap: wrap;
@@ -232,7 +249,7 @@ h3{
 
 .social-media-icon:hover {
     color: #0040df; 
-    box-shadow: none; 
+    box-shadow: none;
 }
 
 
@@ -255,3 +272,82 @@ h3{
     margin-top: 10px;
     line-height: 1.5;
 }
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.application-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+
+.application-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app {
+    text-align: center;
+    color: #0040df;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="file"] {
+    font-size: 14px;
+}
+
+button.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0040df;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.submit-button:hover {
+    background-color: #0262ff;
+}
+
+
